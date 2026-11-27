@@ -1,1 +1,64 @@
 /* Här skrivs all din CSS */
+* {
+    box-sizng: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+
+    background: rgb(255, 255, 255)
+}
+
+.container {
+    display: flex;
+justify-content: center;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px 15px 0 0;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+  
+}
+
+.card-image {
+    background-color: rgb(255, 0, 238);
+    height: 170px;
+    margin-bottom:  15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+.car1 {
+    background-color: url(../img/car.png);
+}
+
+
+.car2 {
+    background-color: url(../img/car.png);
+}
+
+.car3 {
+    background-color: url(../img/car.png);
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: rgb(214, 28, 180);
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
